@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;  
+}
+
+.header {
+    width: 100%;
+    height: 110px;
+    background-color: #1F2605;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 5px; 
+}
+
+.additional-links {
+    display: flex;
+    align-items: center;
+}
+
+.header-image-link {
+    margin-right: 15px; 
+}
+
+.header-image-link img {
+    width: 35px;
+    height: 35px; 
+    border-radius: 50%; 
+}
+
+.logo {
+    font-size: 30px;
+    margin-left: 40px;
+    color: white;
+}
+
+.page-links {
+    font-size: 25px;
+    color: white;
+}
+
+.page-links a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.slider {
+    width: 100%;
+    height: 1000px;
+    background-color: gray;
+    margin-top: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    width: 20%;
+}
+
+.slide img {
+    width: 100%;
+    height: 1000px; 
+    object-fit: cover;
+}
+
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.burtebisContainer {
+    width: 100%;
+    height: 450px;
+    background-color: rgba(234,238,239,255);
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container {
+    width: 18%; 
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: 370px;
+    transition: all 0.3s ease;
+}
+
+.image-container img:hover{
+    transform: scale(1.05);
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    color: black;
+}
+
+.bootsContainer {
+    width: 100%;
+    height: 450px;
+    background-color: rgba(234,238,239,255);
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boot-item {
+    width: 18%; 
+    position: relative;
+    height: 400px;
+}
+
+.boot-item img {
+    width: 100%;
+    height: 370px;
+    transition: all 0.3s ease;
+}
+
+.boot-item img:hover{
+    transform: scale(1.05);
+}
+
+.text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    color: black;
+}
+
+.saleBaner{
+    width: 100%;
+    height: 180px;
+    background-color: #D6CE15;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saleButton{
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    margin-left: 25px;
+}
+
+.salea{
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;   
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: #1F2605;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #1F2605;
+}
+
+.footer-bottom {
+    background-color: #D6CE15;
+    padding: 10px 0;
+    width: 100%;
+    color: black;
+}

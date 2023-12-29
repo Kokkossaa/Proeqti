@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 110px;
+    background-color: #1F2605;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 5px; 
+}
+
+.additional-links {
+    display: flex;
+    align-items: center;
+}
+
+.header-image-link {
+    margin-right: 15px; 
+}
+
+.header-image-link img {
+    width: 35px;
+    height: 35px; 
+    border-radius: 50%; 
+}
+
+.logo {
+    font-size: 30px;
+    margin-left: 40px;
+    color: white;
+}
+
+.page-links {
+    font-size: 25px;
+    color: white;
+}
+
+.page-links a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.background-section {
+    position: relative;
+    width: 100%;
+    height: 1250px;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-96%, -50%);
+    text-align: center;
+    color: black;
+}
+
+.text-overlay h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.text-overlay p {
+    font-size: 22px;
+}
+
+.small-pic {
+    position: absolute;
+    top: 52%;
+    right: -23%;
+    transform: translate(-80%, -50%);
+}
+
+.small-pic img {
+    width: 900px;
+    height: 400px;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;   
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: #1F2605;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #1F2605;
+}
+
+.footer-bottom {
+    background-color: #D6CE15;
+    padding: 10px 0;
+    width: 100%;
+    color: black;
+}
